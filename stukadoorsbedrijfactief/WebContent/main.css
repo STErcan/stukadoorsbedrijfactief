@@ -37,7 +37,7 @@ nav {
 	float: left;
 	border-left-color: grey;
 	border-left-style: solid;
-	border-left-width: 0.2em;
+	border-left-width: 0.1em;
 	height: 2.5em;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -48,7 +48,7 @@ nav {
 	float: left;
 	border-left-color: grey;
 	border-left-style: solid;
-	border-left-width: 0.2em;
+	border-left-width: 0.1em;
 	height: 2.5em;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -59,14 +59,14 @@ nav {
 	float: left;
 	border-left-color: grey;
 	border-left-style: solid;
-	border-left-width: 0.2em;
+	border-left-width: 0.1em;
 	height: 2.5em;
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-left: 10px;
 	border-right-color: grey;
 	border-right-style: solid;
-	border-right-width: 0.2em;
+	border-right-width: 0.1em;
 	padding-right: 10px;
 }
 
@@ -74,14 +74,14 @@ nav {
 	float: left;
 	border-left-color: grey;
 	border-left-style: solid;
-	border-left-width: 0.2em;
+	border-left-width: 0.1em;
 	height: 2.5em;
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-left: 10px;
 	border-right-color: grey;
 	border-right-style: solid;
-	border-right-width: 0.2em;
+	border-right-width: 0.1em;
 	padding-right: 10px;
 }
 
@@ -93,29 +93,33 @@ a {
 }
 
 .nav_button p {
+	color: grey;
 	font-weight: bold;
 	margin-top: -0.5em;
-	margin-bottom: -0.5em;
+	margin-bottom: -0.3em;
 }
 
 .nav_button_actief p {
+	color: grey;
 	color: red;
 	font-weight: bold;
 	margin-top: -0.5em;
-	margin-bottom: -0.5em;
+	margin-bottom: -0.3em;
 }
 
 .nav_button_end p {
+	color: grey;
 	font-weight: bold;
 	margin-top: -0.5em;
-	margin-bottom: -0.5em;
+	margin-bottom: -0.3em;
 }
 
 .nav_button_end_actief p {
+	color: grey;
 	color: red;
 	font-weight: bold;
 	margin-top: -0.5em;
-	margin-bottom: -0.5em;
+	margin-bottom: -0.3em;
 }
 
 #logo {
@@ -125,20 +129,25 @@ a {
 }
 
 .start_text {
-	font-weight: 500;
+	color: grey;
+	font-weight: bold;
 	font-size: 16px;
+	font-color: grey;
 }
 
 .kern_text {
+	border-bottom: 0.02em solid black;
 	color: red;
 	font-size: 20px;
+	margin-top: -16px;
+	padding-bottom: 5px;
 }
 
 #content {
 	background-color: white;
 	margin: 20px auto 100px;
 	overflow: hidden;
-	padding: 20px 40px;
+	padding: 20px;
 	width: 900px;
 }
 
